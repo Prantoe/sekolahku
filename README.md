@@ -10,6 +10,7 @@
 CREATE DATABASE sekolahku;
 USE sekolahku;
 
+```sql
 CREATE TABLE users (
     id INT(11) NOT NULL AUTO_INCREMENT,
     username VARCHAR(50) NOT NULL,
