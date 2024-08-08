@@ -1,14 +1,14 @@
-```TEST DISKOMINFO 2024```
+# TEST DISKOMINFO 2024
 
-Nama: Pranto Suwarno
-posisi: Backend Developer
+**Nama:** Pranto Suwarno  
+**Posisi:** Backend Developer
 
-SOAL A. Database
+## SOAL A. Database
 
-1.query create users table:
+### 1. Query untuk Membuat Tabel `users`
+
 CREATE DATABASE sekolahku;
 USE sekolahku;
-
 
 CREATE TABLE users (
     id INT(11) NOT NULL AUTO_INCREMENT,
@@ -20,16 +20,6 @@ CREATE TABLE users (
     PRIMARY KEY (id)
 );
 
-
-INSERT INTO users (username, email, password, created_at, updated_at) VALUES
-('Andi', 'andi@andi.com', 'password1', '2024-08-08 04:12:05', '2024-08-08 04:12:05'),
-('Budi', 'budi@budi.com', 'password2', '2024-08-08 04:12:05', '2024-08-08 04:12:05'),
-('Caca', 'caca@caca.com', 'password3', '2024-08-08 04:12:05', '2024-08-08 04:12:05'),
-('Deny', 'deny@deny.com', 'password4', '2024-08-08 04:12:05', '2024-08-08 04:12:05'),
-('Euis', 'euis@euis.com', 'password5', '2024-08-08 04:12:05', '2024-08-08 04:12:05'),
-('Fafa', 'fafa@fafa.com', 'password6', '2024-08-08 04:12:05', '2024-08-08 04:12:05');
-	
-output:
 
 2. query create courses table
 
