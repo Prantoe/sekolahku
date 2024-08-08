@@ -48,9 +48,6 @@ INSERT INTO courses (course, mentor, title) VALUES
 
 
 
-output:
-
-
 3. query create table useCourse relation with table users and courses
 
 CREATE TABLE userCourse (
@@ -83,9 +80,6 @@ INSERT INTO userCourse (user_id, course_id) VALUES
 (6,9);
 
 
-	output:
-
-
 	4. query
 SELECT 
     u.username AS peserta_didik,
@@ -98,12 +92,6 @@ JOIN
     users u ON uc.user_id = u.id
 JOIN 
     courses c ON uc.course_id = c.id;
-
-
-
-
-
-	output:
 
 
 	5. query
@@ -123,11 +111,6 @@ WHERE
     c.title IN ('S.Kom', 'S.T.');
 
 
-
-
-
-	output: 
-
 6. query
 	
 SELECT 
@@ -145,9 +128,6 @@ WHERE
     c.title NOT IN ('S.Kom', 'S.T.');
 
 
-
-output:
-
 7. query 
 
 SELECT 
@@ -163,9 +143,6 @@ GROUP BY
     c.course, c.mentor, c.title;
 
 
-	
-	output:
-
 8. query  
 
 SELECT 
@@ -179,5 +156,3 @@ JOIN
 GROUP BY 
     c.mentor;
 	
-	output:
-
